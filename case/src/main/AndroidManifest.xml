@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dagger2.demo">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".case01.Case01Activity" />
+        <activity android:name=".case02.Case02Activity" />
+        <activity android:name=".case03.Case03Activity" />
+        <activity android:name=".case04.Case04Activity" />
+        <activity android:name=".case05.Case05Activity"/>
+        <activity android:name=".case05.Case051Activity"/>
+        <activity android:name=".case05.Case052Activity"/>
+        <activity android:name=".case05.Case053Activity"/>
+        <activity android:name=".case06.Case06Activity" />
+        <activity android:name=".case06.Case061Activity"/>
+    </application>
+
+</manifest>
